@@ -1,7 +1,7 @@
-oclif-hello-world
+tibcop-hello-world
 =================
 
-oclif example Hello World CLI
+Tibco Platform CLI Plugin example
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
