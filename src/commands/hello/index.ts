@@ -1,5 +1,5 @@
 import {Args, Flags} from '@oclif/core'
-import { Profile, ux, TCBaseCommand } from '@tibco-software/cic-cli-core'
+import { TCBaseCommand } from '@tibco-software/cic-cli-core'
 
 export default class Hello extends TCBaseCommand {
   static description = 'Say hello'
