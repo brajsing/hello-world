@@ -1,6 +1,7 @@
 import {Command} from '@oclif/core'
+import { TCBaseCommand } from '@tibco-software/cic-cli-core'
 
-export default class World extends Command {
+export default class World extends TCBaseCommand {
   static description = 'Say hello world'
 
   static examples = [
