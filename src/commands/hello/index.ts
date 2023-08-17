@@ -3,7 +3,7 @@ import {TCBaseCommand} from '@tibco-software/cic-cli-core'
 
 export default class Hello extends TCBaseCommand {
   static description = 'Say hello'
-
+  public static enableJsonFlag = true
   static examples = [
     `$ oex hello friend --from oclif
 hello friend from oclif! (./src/commands/hello/index.ts)
