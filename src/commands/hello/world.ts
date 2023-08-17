@@ -1,19 +1,19 @@
-import {TCBaseCommand} from '@tibco-software/cic-cli-core'
+import {TCBaseCommand} from '@tibco-software/cic-cli-core';
 
 export default class World extends TCBaseCommand {
-  static description = 'Say hello world'
-  public static enableJsonFlag = true
+  static description = 'Say hello world';
+  public static enableJsonFlag = true;
   static examples = [
     `<%= config.bin %> <%= command.id %>
 hello world! (./src/commands/hello/world.ts)
 `,
-  ]
+  ];
 
-  static flags = {}
+  static flags = {};
 
-  static args = {}
+  static args = {};
 
   async run(): Promise<void> {
-    this.log('hello world! (./src/commands/hello/world.ts)')
+    this.log('hello world! (./src/commands/hello/world.ts)');
   }
 }
