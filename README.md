@@ -14,14 +14,9 @@ Tibco Platform CLI Plugin example
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g oclif-hello-world
-$ oex COMMAND
-running command...
-$ oex (--version)
-oclif-hello-world/0.0.0 darwin-x64 node-v16.13.1
-$ oex --help [COMMAND]
+$ tibcop plugins:link PLUGIN_PATH
 USAGE
-  $ oex COMMAND
+  $ tibcop plugins:link PLUGIN_PATH
 ...
 ```
 <!-- usagestop -->
