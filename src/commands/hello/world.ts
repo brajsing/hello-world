@@ -1,6 +1,6 @@
-import {TCBaseCommand} from '@tibco-software/cic-cli-core';
+import {TPBaseCommand} from '@tibco-software/cic-cli-core';
 
-export default class World extends TCBaseCommand {
+export default class World extends TPBaseCommand {
   static description = 'Say hello world';
   public static enableJsonFlag = true;
   static examples = [
