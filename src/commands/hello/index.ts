@@ -1,5 +1,5 @@
 import {Args, Flags} from '@oclif/core';
-import {TPBaseCommand} from '@tibco-software/cic-cli-core';
+import {TPBaseCommand} from '@tibco-software/tp-cli-core';
 
 export default class Hello extends TPBaseCommand {
   static description = 'Say hello';
