@@ -1,4 +1,4 @@
-import {TPBaseCommand} from '@tibco-software/tp-cli-core';
+import {TPBaseCommand} from '@tibco/tp-cli-core';
 
 export default class World extends TPBaseCommand {
   static description = 'Say hello world';
