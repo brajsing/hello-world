@@ -9,8 +9,8 @@
   "bugs": "https://github.com/brajsing/hello-world/issues",
   "dependencies": {
     "@oclif/core": "^3.16.0",
-    "@oclif/plugin-help": "^6.0.9",
-    "@oclif/plugin-plugins": "^4.1.14",
+    "@oclif/plugin-help": "^6",
+    "@oclif/plugin-plugins": "^4",
     "@tibco/tp-cli-core": "^1.0.0"
   },
   "devDependencies": {
