@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "TIBCO Software",
   "bin": {
-    "oex": "./bin/run"
+    "oex1": "./bin/run"
   },
   "bugs": "https://github.com/brajsing/hello-world/issues",
   "dependencies": {
