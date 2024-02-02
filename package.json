@@ -1,7 +1,7 @@
 {
   "name": "hello-world-plugin",
   "description": "base plugin for TIBCO Platform CLI",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "TIBCO Software",
   "bin": {
     "oex": "./bin/run"
